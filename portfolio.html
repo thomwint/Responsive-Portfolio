@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <title>Portfolio</title>
@@ -7,36 +8,58 @@
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
+
 <body>
-        <!--Main Header-->
-        <div id="mainHeader">
-            <header>
-                <h1>Thomas Winters</h1>
-            </header>
-    
+    <!--Main Header-->
+    <header id="mastHeader">
+        <div class="container">
+            <a href="index.html" id="logo">Thomas Winters</a>
             <nav>
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
             </nav>
         </div>
-        <!--Image for Portfolios-->
+    </header>
+    <!--Image for Portfolios-->
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
+
+            <div class="projects">
+                <img src="assets/images/Hangman-icon.png" alt="Hangman">
+                <h3>Hangman</h3>
+            </div>
+
+            <div class="projects">
+                <img src="assets/images/rpglogo.png" alt="RPG">
+                <h3>RPG Game</h3>
+            </div>
+
+            <div class="projects">
+                <img src="assets/images/trivia-game-2-1.jpg" alt="Trivia">
+                <h3>Trivia Game</h3>
+            </div>
+
+            <div class="projects">
+                <img src="assets/images/rutgers.jpg" alt="Rutgers">
+                <h3>Rutgers Info Widget</h3>
+            </div>
+
+            <div class="projects">
+                <img src="assets/images/DFP-RockPaperScissors-Black.png" alt="Rock Paper Scissors">
+                <h3>Rock Paper Scissors</h3>
+            </div>
+        </section>
+    </div>
+
+    <!--Footer-->
+    <footer>
         <div class="container">
-            <h2>Portfolio</h2>
-        <div class="position">
-            <img id="img-1" src="assets/images/Hangman-icon.png" alt="Hangman">
-            <figcaption class="position-center-1">Hangman</figcaption>
-            <img id="img-2" src="assets/images/rpglogo.png" alt="RPG">
-            <figcaption class="position-center-2">RPG Game</figcaption>
-            <img id="img-3" src="assets/images/trivia-game-2-1.jpg" alt="Trivia">
-            <figcaption class="position-center-3">Trivia</figcaption>
-            <img id="img-4" src="assets/images/rutgers.jpg" alt="Rutgers">
-            <figcaption class="position-center-4">Rutgers Info Widget</figcaption>
-            <img id="img-5" src="assets/images/DFP-RockPaperScissors-Black.png" alt="Rock Paper Scissors">
-            <figcaption class="position-center-5">Rock/Paper/Scissors</figcaption>
+            Copyright &copy; 2018
         </div>
-        </div>
-        <!--Footer-->
-        <footer id="mainFooter">Copyright &copy; 2018 </footer>
-    </body>
-    </html>
+    </footer>
+</body>
+
+</html>

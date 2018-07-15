@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <title>Contact</title>
@@ -7,40 +8,51 @@
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
+
 <body>
     <!--Main Header-->
-    <div id="mainHeader">
-        <header>
-            <h1>Thomas Winters</h1>
-        </header>
-
-        <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </div>
-    <div class="container">
-        <h2>Contact</h2>
-        <div id="second-container">
-
-            <form action="#">
-                Name:<br>
-                <input type="text" name="name">
-                <br>
-                Email:<br>
-                <input type="text" name="email">
-            </form>
-            <div class="message-thomas">
-                <label for="contacting">Message</label><br/>
-                <textarea name="subject" id="contacting"></textarea><br/>
-                <button>Submit</button>
-            </div>
+    <header id="mastHeader">
+        <div class="container">
+            <a href="index.html" id="logo">Thomas Winters</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
+    </header>
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
+
+            <form action="#" id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Name" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="email@email.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
+            </form>
+        </section>
     </div>
+
 
     <!--Footer-->
-    <footer id="mainFooter">Copyright &copy; 2018 </footer>
-
+    <footer>
+        <div class="container">
+            Copyright &copy; 2018
+        </div>
+    </footer>
 </body>
+
 </html>
